@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
             if (letters.indexOf(it) % 2 == 1)
                 Log.d("letter", it)
         }
+        Log.d(MY_OWN_LOG_TAG, "Ты видел деву на скале, \n В одежде белой над волнами,")
     }
 
     override fun onStart() {
